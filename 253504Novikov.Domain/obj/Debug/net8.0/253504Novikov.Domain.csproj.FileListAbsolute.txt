@@ -1,0 +1,12 @@
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Domain\bin\Debug\net8.0\253504Novikov.Domain.deps.json
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Domain\bin\Debug\net8.0\253504Novikov.Domain.dll
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Domain\bin\Debug\net8.0\253504Novikov.Domain.pdb
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Domain\obj\Debug\net8.0\253504Novikov.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Domain\obj\Debug\net8.0\253504Novikov.Domain.AssemblyInfoInputs.cache
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Domain\obj\Debug\net8.0\253504Novikov.Domain.AssemblyInfo.cs
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Domain\obj\Debug\net8.0\253504Novikov.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Domain\obj\Debug\net8.0\253504Novikov.Domain.sourcelink.json
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Domain\obj\Debug\net8.0\253504Novikov.Domain.dll
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Domain\obj\Debug\net8.0\refint\253504Novikov.Domain.dll
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Domain\obj\Debug\net8.0\253504Novikov.Domain.pdb
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Domain\obj\Debug\net8.0\ref\253504Novikov.Domain.dll

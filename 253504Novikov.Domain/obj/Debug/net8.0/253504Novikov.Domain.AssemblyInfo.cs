@@ -11,15 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("253504Novikov.UI")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("253504Novikov.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ab5e85da34d8b47dc3a42a40ca4c56893bead6b2")]
-[assembly: System.Reflection.AssemblyProductAttribute("253504Novikov.UI")]
-[assembly: System.Reflection.AssemblyTitleAttribute("253504Novikov.UI")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab5e85da34d8b47dc3a42a40ca4c56893bead6b2")]
+[assembly: System.Reflection.AssemblyProductAttribute("253504Novikov.Domain")]
+[assembly: System.Reflection.AssemblyTitleAttribute("253504Novikov.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS17.2")]
-[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("iOS11.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
 
