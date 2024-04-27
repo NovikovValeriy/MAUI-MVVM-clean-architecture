@@ -19,6 +19,7 @@
         public int SeatsNumber { get; private set; }
         public int MaxWeight { get; private set; }
         public int? GarageId { get; private set; }
+        public string ImageFile { get; private set; }
         public void AddToGarage(int garageId)
         {
             if (garageId <= 0) return;
@@ -33,6 +34,14 @@
         public void ChangeInspectionDate(DateTime inspectionDate)
         {
             InspectionDate = inspectionDate;
+        }
+        public void ChangeMaxWeight(int weight)
+        {
+            MaxWeight = weight;
+        }
+        public void ChangeSeatsNumber(int seatsNumber)
+        {
+            SeatsNumber = seatsNumber;
         }
     }
 }

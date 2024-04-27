@@ -14,8 +14,20 @@
             Area = area;
         }
 
-        public string Name { get; set; }
+        public string Name { get; private set; }
         public double Area { get; private set; }
+
+        public void ChangeName(string name)
+        {
+            if(name != string.Empty)
+            {
+                Name = name;
+            }
+        }
+        public void ChangeArea(double area)
+        {
+            Area = area;
+        }
         public IReadOnlyList<Vehicle> Vehicles { get => _vehicles.AsReadOnly(); }
     }
 }
