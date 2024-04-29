@@ -15,8 +15,4 @@
     <ProjectReference Include="..\253504Novikov.Domain\253504Novikov.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="GarageUseCases\Commands\" />
-  </ItemGroup>
-
 </Project>

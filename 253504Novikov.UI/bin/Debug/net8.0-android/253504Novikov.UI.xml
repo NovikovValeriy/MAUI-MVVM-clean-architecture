@@ -1,0 +1,407 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>253504Novikov.UI</name>
+    </assembly>
+    <members>
+        <member name="T:_253504Novikov.UI.ViewModels.AddGarageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.AddGarageViewModel.Name">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.AddGarageViewModel.name"/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.AddGarageViewModel.Area">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.AddGarageViewModel.area"/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.AddGarageViewModel.Id">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.AddGarageViewModel.id"/>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.AddGarageViewModel.saveGarageCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.AddGarageViewModel.SaveGarageCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.AddGarageViewModel.SaveGarageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.AddGarageViewModel.SaveGarage"/>.</summary>
+        </member>
+        <member name="T:_253504Novikov.UI.ViewModels.AddVehicleViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.AddVehicleViewModel.SelectedGarage">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.AddVehicleViewModel.selectedGarage"/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.AddVehicleViewModel.Name">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.AddVehicleViewModel.name"/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.AddVehicleViewModel.IsnpectionDate">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.AddVehicleViewModel.isnpectionDate"/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.AddVehicleViewModel.SeatsNumber">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.AddVehicleViewModel.seatsNumber"/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.AddVehicleViewModel.MaxWeight">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.AddVehicleViewModel.maxWeight"/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.AddVehicleViewModel.ImageName">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.AddVehicleViewModel.imageName"/>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.AddVehicleViewModel.saveNewVehicleCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.AddVehicleViewModel.SaveNewVehicleCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.AddVehicleViewModel.SaveNewVehicleCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.AddVehicleViewModel.SaveNewVehicle"/>.</summary>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.AddVehicleViewModel.addVehicleImageCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.AddVehicleViewModel.AddVehicleImageCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.AddVehicleViewModel.AddVehicleImageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.AddVehicleViewModel.AddVehicleImage"/>.</summary>
+        </member>
+        <member name="T:_253504Novikov.UI.ViewModels.EditGarageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.EditGarageViewModel.SelectedGarage">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.EditGarageViewModel.selectedGarage"/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.EditGarageViewModel.Name">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.EditGarageViewModel.name"/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.EditGarageViewModel.Area">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.EditGarageViewModel.area"/>
+        </member>
+        <member name="M:_253504Novikov.UI.ViewModels.EditGarageViewModel.OnSelectedGarageChanged(_253504Novikov.Domain.Entities.Garage)">
+            <summary>Executes the logic for when <see cref="P:_253504Novikov.UI.ViewModels.EditGarageViewModel.SelectedGarage"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:_253504Novikov.UI.ViewModels.EditGarageViewModel.SelectedGarage"/> is changed.</remarks>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.EditGarageViewModel.saveGarageCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.EditGarageViewModel.SaveGarageCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.EditGarageViewModel.SaveGarageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.EditGarageViewModel.SaveGarage"/>.</summary>
+        </member>
+        <member name="T:_253504Novikov.UI.ViewModels.EditVehicleViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.EditVehicleViewModel.SelectedVehicle">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.EditVehicleViewModel.selectedVehicle"/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.EditVehicleViewModel.Name">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.EditVehicleViewModel.name"/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.EditVehicleViewModel.InspectionDate">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.EditVehicleViewModel.inspectionDate"/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.EditVehicleViewModel.MaxWeight">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.EditVehicleViewModel.maxWeight"/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.EditVehicleViewModel.SeatsNumber">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.EditVehicleViewModel.seatsNumber"/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.EditVehicleViewModel.ImageName">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.EditVehicleViewModel.imageName"/>
+        </member>
+        <member name="M:_253504Novikov.UI.ViewModels.EditVehicleViewModel.OnSelectedVehicleChanged(_253504Novikov.Domain.Entities.Vehicle)">
+            <summary>Executes the logic for when <see cref="P:_253504Novikov.UI.ViewModels.EditVehicleViewModel.SelectedVehicle"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:_253504Novikov.UI.ViewModels.EditVehicleViewModel.SelectedVehicle"/> is changed.</remarks>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.EditVehicleViewModel.editVehicleImageCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.EditVehicleViewModel.EditVehicleImageCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.EditVehicleViewModel.EditVehicleImageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.EditVehicleViewModel.EditVehicleImage"/>.</summary>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.EditVehicleViewModel.saveVehicleCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.EditVehicleViewModel.SaveVehicleCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.EditVehicleViewModel.SaveVehicleCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.EditVehicleViewModel.SaveVehicle"/>.</summary>
+        </member>
+        <member name="T:_253504Novikov.UI.ViewModels.GaragesViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.GaragesViewModel.SelectedGarage">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.GaragesViewModel.selectedGarage"/>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.GaragesViewModel.updateGaragesListCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.GaragesViewModel.UpdateGaragesListCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.GaragesViewModel.UpdateGaragesListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.GaragesViewModel.UpdateGaragesList"/>.</summary>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.GaragesViewModel.updateVehiclesListCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.GaragesViewModel.UpdateVehiclesListCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.GaragesViewModel.UpdateVehiclesListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.GaragesViewModel.UpdateVehiclesList"/>.</summary>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.GaragesViewModel.showDetailsCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.GaragesViewModel.ShowDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.GaragesViewModel.ShowDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.GaragesViewModel.ShowDetails(_253504Novikov.Domain.Entities.Vehicle)"/>.</summary>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.GaragesViewModel.addGarageCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.GaragesViewModel.AddGarageCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.GaragesViewModel.AddGarageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.GaragesViewModel.AddGarage"/>.</summary>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.GaragesViewModel.editGarageCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.GaragesViewModel.EditGarageCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.GaragesViewModel.EditGarageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.GaragesViewModel.EditGarage(_253504Novikov.Domain.Entities.Garage)"/>.</summary>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.GaragesViewModel.deleteGarageCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.GaragesViewModel.DeleteGarageCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.GaragesViewModel.DeleteGarageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.GaragesViewModel.DeleteGarage(_253504Novikov.Domain.Entities.Garage)"/>.</summary>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.GaragesViewModel.addVehicleCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.GaragesViewModel.AddVehicleCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.GaragesViewModel.AddVehicleCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.GaragesViewModel.AddVehicle(_253504Novikov.Domain.Entities.Garage)"/>.</summary>
+        </member>
+        <member name="T:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.SelectedVehicle">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.selectedVehicle"/>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.editVehicleCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.EditVehicleCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.EditVehicleCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.EditVehicle(_253504Novikov.Domain.Entities.Vehicle)"/>.</summary>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.changePictureCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.ChangePictureCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.ChangePictureCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.ChangePicture"/>.</summary>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.updateCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.UpdateCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.UpdateCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.Update"/>.</summary>
+        </member>
+        <member name="F:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.deleteVehicleCommand">
+            <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.DeleteVehicleCommand"/>.</summary>
+        </member>
+        <member name="P:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.DeleteVehicleCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:_253504Novikov.UI.ViewModels.VehicleDetailsViewModel.DeleteVehicle"/>.</summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_InputView.TextColorTo(Microsoft.Maui.Controls.InputView,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Area">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Area" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedGarage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedGarage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsnpectionDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsnpectionDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SeatsNumber">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SeatsNumber" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.MaxWeight">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "MaxWeight" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ImageName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ImageName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedVehicle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedVehicle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.InspectionDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "InspectionDate" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Area">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Area" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedGarage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedGarage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsnpectionDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsnpectionDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SeatsNumber">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SeatsNumber" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.MaxWeight">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "MaxWeight" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ImageName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ImageName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedVehicle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedVehicle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.InspectionDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "InspectionDate" generated properties.</summary>
+        </member>
+    </members>
+</doc>

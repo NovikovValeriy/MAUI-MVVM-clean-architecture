@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:_253504Novikov.UI.ViewModels"
+             xmlns:converters="clr-namespace:_253504Novikov.UI.ValueConverters"
+             xmlns:entities="clr-namespace:_253504Novikov.Domain.Entities;assembly=253504Novikov.Domain"
+             x:DataType="models:AddGarageViewModel"
+             x:Class="_253504Novikov.UI.Pages.AddGarage"
+             Title="AddGarage">
+    <VerticalStackLayout>
+        <Label Text="Name"/>
+        <Entry Placeholder="Name" Keyboard="Text" Text="{Binding Name}"/>
+        <Label Text="Area"/>
+        <Entry Placeholder="Area" Keyboard="Numeric" Text="{Binding Area}"/>
+        <Label Text="Id"/>
+        <Entry Placeholder="Id" Keyboard="Numeric" Text="{Binding Id}"/>
+        <Button Text="Save" Command="{Binding 
+                                        Source={RelativeSource 
+                                    AncestorType={x:Type models:AddGarageViewModel}}, 
+                                    Path=SaveGarageCommand}"/>
+    </VerticalStackLayout>
+</ContentPage>

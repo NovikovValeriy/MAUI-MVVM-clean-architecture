@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:_253504Novikov.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:converters="clr-namespace:_253504Novikov.UI.ValueConverters"
+             xmlns:entities="clr-namespace:_253504Novikov.Domain.Entities;assembly=253504Novikov.Domain"
+             x:DataType="models:VehicleDetailsViewModel"
+             x:Class="_253504Novikov.UI.Pages.VehicleDetails"
+             Title="VehicleDetails">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing" Command="{Binding UpdateCommand}"/>
+    </ContentPage.Behaviors>
+    
+    <ContentPage.Content>
+        <VerticalStackLayout>
+            <Image MaximumHeightRequest="300" MinimumHeightRequest="300" Source="{Binding SelectedVehicle.ImageFile}"/>
+            <Label 
+                Text="{Binding SelectedVehicle.Name}"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label 
+                Text="{Binding SelectedVehicle.Id}"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label
+                Text="{Binding SelectedVehicle.InspectionDate}"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label
+                Text="{Binding SelectedVehicle.MaxWeight}"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label
+                Text="{Binding SelectedVehicle.SeatsNumber}"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <HorizontalStackLayout>
+                <Button Text="Edit"
+                Command="{Binding Source={RelativeSource 
+                        AncestorType={x:Type models:VehicleDetailsViewModel}}, 
+                        Path=EditVehicleCommand}"
+                        CommandParameter="{Binding SelectedVehicle}"/>
+                <Button Text="Delete" Command="{Binding Source={RelativeSource 
+                        AncestorType={x:Type models:VehicleDetailsViewModel}}, 
+                        Path=DeleteVehicleCommand}"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

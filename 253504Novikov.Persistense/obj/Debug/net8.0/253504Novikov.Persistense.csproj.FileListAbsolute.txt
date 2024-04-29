@@ -1,0 +1,16 @@
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Persistense\bin\Debug\net8.0\253504Novikov.Persistense.deps.json
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Persistense\bin\Debug\net8.0\253504Novikov.Persistense.dll
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Persistense\bin\Debug\net8.0\253504Novikov.Persistense.pdb
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Persistense\bin\Debug\net8.0\253504Novikov.Domain.dll
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Persistense\bin\Debug\net8.0\253504Novikov.Domain.pdb
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Persistense\obj\Debug\net8.0\253504Novikov.Persistense.csproj.AssemblyReference.cache
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Persistense\obj\Debug\net8.0\253504Novikov.Persistense.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Persistense\obj\Debug\net8.0\253504Novikov.Persistense.AssemblyInfoInputs.cache
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Persistense\obj\Debug\net8.0\253504Novikov.Persistense.AssemblyInfo.cs
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Persistense\obj\Debug\net8.0\253504Novikov.Persistense.csproj.CoreCompileInputs.cache
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Persistense\obj\Debug\net8.0\253504Novikov.Persistense.sourcelink.json
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Persistense\obj\Debug\net8.0\253504No.AFC71D18.Up2Date
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Persistense\obj\Debug\net8.0\253504Novikov.Persistense.dll
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Persistense\obj\Debug\net8.0\refint\253504Novikov.Persistense.dll
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Persistense\obj\Debug\net8.0\253504Novikov.Persistense.pdb
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Persistense\obj\Debug\net8.0\ref\253504Novikov.Persistense.dll

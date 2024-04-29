@@ -4,6 +4,221 @@
     "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.UI\\253504Novikov.UI.csproj": {}
   },
   "projects": {
+    "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Application\\253504Novikov.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Application\\253504Novikov.Application.csproj",
+        "projectName": "253504Novikov.Application",
+        "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Application\\253504Novikov.Application.csproj",
+        "packagesPath": "C:\\Users\\dzmitry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dzmitry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Domain\\253504Novikov.Domain.csproj": {
+                "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Domain\\253504Novikov.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Domain\\253504Novikov.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Domain\\253504Novikov.Domain.csproj",
+        "projectName": "253504Novikov.Domain",
+        "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Domain\\253504Novikov.Domain.csproj",
+        "packagesPath": "C:\\Users\\dzmitry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dzmitry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Persistense\\253504Novikov.Persistense.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Persistense\\253504Novikov.Persistense.csproj",
+        "projectName": "253504Novikov.Persistense",
+        "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Persistense\\253504Novikov.Persistense.csproj",
+        "packagesPath": "C:\\Users\\dzmitry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Persistense\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dzmitry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Domain\\253504Novikov.Domain.csproj": {
+                "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Domain\\253504Novikov.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.UI\\253504Novikov.UI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -36,19 +251,59 @@
         "frameworks": {
           "net8.0-android34.0": {
             "targetAlias": "net8.0-android",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Application\\253504Novikov.Application.csproj": {
+                "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Application\\253504Novikov.Application.csproj"
+              },
+              "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Domain\\253504Novikov.Domain.csproj": {
+                "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Domain\\253504Novikov.Domain.csproj"
+              },
+              "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Persistense\\253504Novikov.Persistense.csproj": {
+                "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Persistense\\253504Novikov.Persistense.csproj"
+              }
+            }
           },
           "net8.0-ios17.2": {
             "targetAlias": "net8.0-ios",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Application\\253504Novikov.Application.csproj": {
+                "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Application\\253504Novikov.Application.csproj"
+              },
+              "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Domain\\253504Novikov.Domain.csproj": {
+                "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Domain\\253504Novikov.Domain.csproj"
+              },
+              "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Persistense\\253504Novikov.Persistense.csproj": {
+                "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Persistense\\253504Novikov.Persistense.csproj"
+              }
+            }
           },
           "net8.0-maccatalyst17.2": {
             "targetAlias": "net8.0-maccatalyst",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Application\\253504Novikov.Application.csproj": {
+                "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Application\\253504Novikov.Application.csproj"
+              },
+              "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Domain\\253504Novikov.Domain.csproj": {
+                "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Domain\\253504Novikov.Domain.csproj"
+              },
+              "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Persistense\\253504Novikov.Persistense.csproj": {
+                "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Persistense\\253504Novikov.Persistense.csproj"
+              }
+            }
           },
           "net8.0-windows10.0.19041": {
             "targetAlias": "net8.0-windows10.0.19041.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Application\\253504Novikov.Application.csproj": {
+                "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Application\\253504Novikov.Application.csproj"
+              },
+              "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Domain\\253504Novikov.Domain.csproj": {
+                "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Domain\\253504Novikov.Domain.csproj"
+              },
+              "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Persistense\\253504Novikov.Persistense.csproj": {
+                "projectPath": "C:\\Users\\dzmitry\\source\\repos\\4sem\\ISP\\253504Novikov\\253504Novikov.Persistense\\253504Novikov.Persistense.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -66,17 +321,33 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -109,17 +380,33 @@
         "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -152,17 +439,33 @@
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -196,17 +499,33 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.21, )"
             }
           },
           "imports": [

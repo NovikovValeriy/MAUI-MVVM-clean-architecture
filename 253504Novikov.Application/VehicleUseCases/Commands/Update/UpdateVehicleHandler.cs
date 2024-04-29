@@ -10,6 +10,7 @@ namespace _253504Novikov.Application.VehicleUseCases.Commands.Update
             vehicle.ChangeInspectionDate(request.inspectionDate);
             vehicle.ChangeMaxWeight(request.maxWeight);
             vehicle.ChangeSeatsNumber(request.seatsNumber);
+            vehicle.ChangePictureName(request.imageName);
             await unitOfWork.VehicleRepository.UpdateAsync(vehicle);
             await unitOfWork.SaveAllAsync();
             return vehicle;

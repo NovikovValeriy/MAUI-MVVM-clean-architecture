@@ -1,0 +1,16 @@
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Application\bin\Debug\net8.0\253504Novikov.Application.deps.json
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Application\bin\Debug\net8.0\253504Novikov.Application.dll
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Application\bin\Debug\net8.0\253504Novikov.Application.pdb
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Application\bin\Debug\net8.0\253504Novikov.Domain.dll
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Application\bin\Debug\net8.0\253504Novikov.Domain.pdb
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Application\obj\Debug\net8.0\253504Novikov.Application.csproj.AssemblyReference.cache
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Application\obj\Debug\net8.0\253504Novikov.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Application\obj\Debug\net8.0\253504Novikov.Application.AssemblyInfoInputs.cache
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Application\obj\Debug\net8.0\253504Novikov.Application.AssemblyInfo.cs
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Application\obj\Debug\net8.0\253504Novikov.Application.csproj.CoreCompileInputs.cache
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Application\obj\Debug\net8.0\253504Novikov.Application.sourcelink.json
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Application\obj\Debug\net8.0\253504No.BE38E7C3.Up2Date
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Application\obj\Debug\net8.0\253504Novikov.Application.dll
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Application\obj\Debug\net8.0\refint\253504Novikov.Application.dll
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Application\obj\Debug\net8.0\253504Novikov.Application.pdb
+C:\Users\dzmitry\source\repos\4sem\ISP\253504Novikov\253504Novikov.Application\obj\Debug\net8.0\ref\253504Novikov.Application.dll

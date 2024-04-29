@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:_253504Novikov.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:entites="clr-namespace:_253504Novikov.Domain.Entities;assembly=253504Novikov.Domain"
+             xmlns:converters="clr-namespace:_253504Novikov.UI.ValueConverters"
+             x:DataType="models:GaragesViewModel"
+             x:Class="_253504Novikov.UI.Pages.Garages"
+             Title="Garages">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing" Command="{Binding UpdateGaragesListCommand}"/>
+    </ContentPage.Behaviors>
+
+    <ContentPage.Resources>
+        <converters:InspectionDateToColor x:Key="InspectionDateToColor"/>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <VerticalStackLayout>
+            <Picker
+                Margin="0,10,0,10"
+                WidthRequest="350"
+                TextColor="Black"
+                Title="Select Garage"
+                ItemsSource="{Binding Garages}"
+                ItemDisplayBinding="{Binding Name}"
+                SelectedItem="{Binding SelectedGarage}"
+                x:Name="GaragesPicker"
+                >
+                <Picker.Behaviors>
+                    <toolkit:EventToCommandBehavior EventName="SelectedIndexChanged"
+                                Command="{Binding UpdateVehiclesListCommand}" />
+                    <toolkit:EventToCommandBehavior EventName="Focused"
+                                Command="{Binding UpdateGaragesListCommand}" />
+                </Picker.Behaviors>
+            </Picker>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Area: "/>
+                        <Span Text="{Binding SelectedGarage.Area}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Id: "/>
+                        <Span Text="{Binding SelectedGarage.Id}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <ScrollView HeightRequest="500">
+                <CollectionView ItemsSource="{Binding Vehicles}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="entites:Vehicle">
+                            <StackLayout 
+                                Margin="10,10,10,10" 
+                                BackgroundColor="{Binding InspectionDate, Converter={StaticResource InspectionDateToColor}}"
+                                >
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding 
+                                                                        Source={RelativeSource
+                                                                            AncestorType={x:Type models:GaragesViewModel} },
+                                                                        Path=ShowDetailsCommand}"
+                                                                        CommandParameter="{Binding}"/>
+                                </StackLayout.GestureRecognizers>
+                                <HorizontalStackLayout>
+                                    <Image Aspect="AspectFill"
+                                           HeightRequest="70"
+                                           WidthRequest="70"
+                                           Source="{Binding ImageFile}"/>
+                                    <VerticalStackLayout>
+                                        <Label>
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span Text="Name: "/>
+                                                    <Span Text="{Binding Name}"/>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                        <Label>
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span Text="Inspection Date: "/>
+                                                    <Span Text="{Binding InspectionDate}"/>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                        <Label>
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span Text="Max weight: "/>
+                                                    <Span Text="{Binding MaxWeight}"/>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                        <Label>
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span Text="Seats number: "/>
+                                                    <Span Text="{Binding SeatsNumber}"/>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                    </VerticalStackLayout>    
+                                </HorizontalStackLayout>
+                                
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </ScrollView>
+
+            <HorizontalStackLayout>
+                <Button Text="Add Garage" Command="{Binding
+                                                        Source={RelativeSource
+                                                            AncestorType={x:Type models:GaragesViewModel} },
+                                                        Path=AddGarageCommand}"/>
+                <Button Text="Edit Garage" Command="{Binding 
+                                                        Source={RelativeSource
+                                                            AncestorType={x:Type models:GaragesViewModel} },
+                                                        Path=EditGarageCommand}"
+                                                        CommandParameter="{Binding SelectedGarage}"/>
+                <Button Text="Delete Garage" Command="{Binding 
+                                                        Source={RelativeSource
+                                                            AncestorType={x:Type models:GaragesViewModel} },
+                                                        Path=DeleteGarageCommand}"
+                                                        CommandParameter="{Binding SelectedGarage}"/>
+                <Button Text="Add Vehicle" Command="{Binding 
+                                                        Source={RelativeSource
+                                                            AncestorType={x:Type models:GaragesViewModel} },
+                                                        Path=AddVehicleCommand}"
+                                                        CommandParameter="{Binding SelectedGarage}"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

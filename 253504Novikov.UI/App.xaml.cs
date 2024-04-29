@@ -1,6 +1,6 @@
 ﻿namespace _253504Novikov.UI
 {
-    public partial class App : Application
+    public partial class App : Microsoft.Maui.Controls.Application
     {
         public App()
         {

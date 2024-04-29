@@ -34,6 +34,42 @@ build_metadata.AdditionalFiles.ManifestResourceName = _253504Novikov.UI.MainPage
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
+[C:/Users/dzmitry/source/repos/4sem/ISP/253504Novikov/253504Novikov.UI/Pages/AddGarage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _253504Novikov.UI.Pages.AddGarage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddGarage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddGarage.xaml
+
+[C:/Users/dzmitry/source/repos/4sem/ISP/253504Novikov/253504Novikov.UI/Pages/AddVehicle.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _253504Novikov.UI.Pages.AddVehicle.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddVehicle.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddVehicle.xaml
+
+[C:/Users/dzmitry/source/repos/4sem/ISP/253504Novikov/253504Novikov.UI/Pages/EditGarage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _253504Novikov.UI.Pages.EditGarage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EditGarage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EditGarage.xaml
+
+[C:/Users/dzmitry/source/repos/4sem/ISP/253504Novikov/253504Novikov.UI/Pages/EditVehicle.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _253504Novikov.UI.Pages.EditVehicle.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EditVehicle.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EditVehicle.xaml
+
+[C:/Users/dzmitry/source/repos/4sem/ISP/253504Novikov/253504Novikov.UI/Pages/Garages.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _253504Novikov.UI.Pages.Garages.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Garages.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Garages.xaml
+
+[C:/Users/dzmitry/source/repos/4sem/ISP/253504Novikov/253504Novikov.UI/Pages/VehicleDetails.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _253504Novikov.UI.Pages.VehicleDetails.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\VehicleDetails.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\VehicleDetails.xaml
+
 [C:/Users/dzmitry/source/repos/4sem/ISP/253504Novikov/253504Novikov.UI/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = _253504Novikov.UI.Resources.Styles.Colors.xaml
