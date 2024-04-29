@@ -14,38 +14,55 @@
     </ContentPage.Behaviors>
     
     <ContentPage.Content>
-        <VerticalStackLayout>
-            <Image MaximumHeightRequest="300" MinimumHeightRequest="300" Source="{Binding SelectedVehicle.ImageFile}"/>
-            <Label 
-                Text="{Binding SelectedVehicle.Name}"
-                VerticalOptions="Center" 
-                HorizontalOptions="Center" />
-            <Label 
-                Text="{Binding SelectedVehicle.Id}"
-                VerticalOptions="Center" 
-                HorizontalOptions="Center" />
-            <Label
-                Text="{Binding SelectedVehicle.InspectionDate}"
-                VerticalOptions="Center" 
-                HorizontalOptions="Center" />
-            <Label
-                Text="{Binding SelectedVehicle.MaxWeight}"
-                VerticalOptions="Center" 
-                HorizontalOptions="Center" />
-            <Label
-                Text="{Binding SelectedVehicle.SeatsNumber}"
-                VerticalOptions="Center" 
-                HorizontalOptions="Center" />
-            <HorizontalStackLayout>
-                <Button Text="Edit"
-                Command="{Binding Source={RelativeSource 
-                        AncestorType={x:Type models:VehicleDetailsViewModel}}, 
-                        Path=EditVehicleCommand}"
-                        CommandParameter="{Binding SelectedVehicle}"/>
-                <Button Text="Delete" Command="{Binding Source={RelativeSource 
-                        AncestorType={x:Type models:VehicleDetailsViewModel}}, 
-                        Path=DeleteVehicleCommand}"/>
-            </HorizontalStackLayout>
+        <VerticalStackLayout Margin="10">
+            <Frame CornerRadius="30" BackgroundColor="WhiteSmoke">
+                <VerticalStackLayout>
+                    <Frame Margin="0,0,0,10" CornerRadius="20">
+                        <Image MaximumHeightRequest="300" MinimumHeightRequest="300" Source="{Binding SelectedVehicle.ImageFile}"/>
+                    </Frame>
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Name: "/>
+                                <Span Text="{Binding SelectedVehicle.Name}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Inspection date: "/>
+                                <Span Text="{Binding SelectedVehicle.InspectionDate}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Maximum weight: "/>
+                                <Span Text="{Binding SelectedVehicle.MaxWeight}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Seats number: "/>
+                                <Span Text="{Binding SelectedVehicle.SeatsNumber}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </VerticalStackLayout>
+            </Frame>
+            <Button Margin="0,10,0,0" Text="Edit"
+                        Command="{Binding Source={RelativeSource 
+                                AncestorType={x:Type models:VehicleDetailsViewModel}}, 
+                                Path=EditVehicleCommand}"
+                                CommandParameter="{Binding SelectedVehicle}"/>
+            <Button Margin="0,10,0,0" Text="Delete" 
+                        Command="{Binding Source={RelativeSource 
+                                AncestorType={x:Type models:VehicleDetailsViewModel}}, 
+                                Path=DeleteVehicleCommand}"/>
         </VerticalStackLayout>
     </ContentPage.Content>
 </ContentPage>

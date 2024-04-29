@@ -8,11 +8,17 @@
     Title="_253504Novikov.UI">
 
     <ShellContent
+        Icon="home.png"
+        Shell.BackgroundColor="BlueViolet"
+        Shell.TitleColor="White"
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
     <ShellContent
+        Icon="menu_burger.png"
+        Shell.BackgroundColor="BlueViolet"
+        Shell.TitleColor="White"
         Title="Garages list"
         ContentTemplate="{DataTemplate pages:Garages}"
         Route="Garages" />

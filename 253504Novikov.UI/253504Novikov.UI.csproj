@@ -58,6 +58,8 @@
 
 	<ItemGroup>
 	  <None Remove="appsettings.json" />
+	  <None Remove="Resources\Images\home.png" />
+	  <None Remove="Resources\Images\menu_burger.png" />
 	</ItemGroup>
 
 	<ItemGroup>

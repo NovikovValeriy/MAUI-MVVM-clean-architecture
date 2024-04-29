@@ -14,12 +14,13 @@
 
     <ContentPage.Resources>
         <converters:InspectionDateToColor x:Key="InspectionDateToColor"/>
+        <converters:InspectionDateFormat x:Key="InspectionDateFormat"/>
     </ContentPage.Resources>
     
     <ContentPage.Content>
-        <VerticalStackLayout>
+        <VerticalStackLayout Margin="0,10,0,0">
             <Picker
-                Margin="0,10,0,10"
+                Margin="0,0,0,10"
                 WidthRequest="350"
                 TextColor="Black"
                 Title="Select Garage"
@@ -35,105 +36,101 @@
                                 Command="{Binding UpdateGaragesListCommand}" />
                 </Picker.Behaviors>
             </Picker>
-            <Label>
-                <Label.FormattedText>
-                    <FormattedString>
-                        <Span Text="Area: "/>
-                        <Span Text="{Binding SelectedGarage.Area}"/>
-                    </FormattedString>
-                </Label.FormattedText>
-            </Label>
-            <Label>
-                <Label.FormattedText>
-                    <FormattedString>
-                        <Span Text="Id: "/>
-                        <Span Text="{Binding SelectedGarage.Id}"/>
-                    </FormattedString>
-                </Label.FormattedText>
-            </Label>
-            <ScrollView HeightRequest="500">
+            <Frame HasShadow="False" BorderColor="LightGrey" BackgroundColor="WhiteSmoke" Margin="10,0,10,10">
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span FontSize="20" Text="Area: "/>
+                            <Span FontSize="20" Text="{Binding Area}"/>
+                            <Span FontSize="20" Text=" m²"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </Frame>
+            <ScrollView Margin="0,0,0,10" HeightRequest="480">
                 <CollectionView ItemsSource="{Binding Vehicles}">
                     <CollectionView.ItemTemplate>
                         <DataTemplate x:DataType="entites:Vehicle">
-                            <StackLayout 
-                                Margin="10,10,10,10" 
-                                BackgroundColor="{Binding InspectionDate, Converter={StaticResource InspectionDateToColor}}"
-                                >
-                                <StackLayout.GestureRecognizers>
-                                    <TapGestureRecognizer Command="{Binding 
-                                                                        Source={RelativeSource
-                                                                            AncestorType={x:Type models:GaragesViewModel} },
-                                                                        Path=ShowDetailsCommand}"
-                                                                        CommandParameter="{Binding}"/>
-                                </StackLayout.GestureRecognizers>
-                                <HorizontalStackLayout>
-                                    <Image Aspect="AspectFill"
-                                           HeightRequest="70"
-                                           WidthRequest="70"
-                                           Source="{Binding ImageFile}"/>
-                                    <VerticalStackLayout>
-                                        <Label>
-                                            <Label.FormattedText>
-                                                <FormattedString>
-                                                    <Span Text="Name: "/>
-                                                    <Span Text="{Binding Name}"/>
-                                                </FormattedString>
-                                            </Label.FormattedText>
-                                        </Label>
-                                        <Label>
-                                            <Label.FormattedText>
-                                                <FormattedString>
-                                                    <Span Text="Inspection Date: "/>
-                                                    <Span Text="{Binding InspectionDate}"/>
-                                                </FormattedString>
-                                            </Label.FormattedText>
-                                        </Label>
-                                        <Label>
-                                            <Label.FormattedText>
-                                                <FormattedString>
-                                                    <Span Text="Max weight: "/>
-                                                    <Span Text="{Binding MaxWeight}"/>
-                                                </FormattedString>
-                                            </Label.FormattedText>
-                                        </Label>
-                                        <Label>
-                                            <Label.FormattedText>
-                                                <FormattedString>
-                                                    <Span Text="Seats number: "/>
-                                                    <Span Text="{Binding SeatsNumber}"/>
-                                                </FormattedString>
-                                            </Label.FormattedText>
-                                        </Label>
-                                    </VerticalStackLayout>    
-                                </HorizontalStackLayout>
-                                
+                            <StackLayout Margin="0,5,0,5">
+                                <Frame CornerRadius="15" HasShadow="True" BorderColor="LightGrey" BackgroundColor="{Binding InspectionDate, Converter={StaticResource InspectionDateToColor}}" Margin="10,0,10,0">
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type models:GaragesViewModel} }, Path=ShowDetailsCommand}"
+                                                              CommandParameter="{Binding}"/>
+                                    </Frame.GestureRecognizers>
+                                    <HorizontalStackLayout>
+                                        <Frame CornerRadius="10" HeightRequest="80" WidthRequest="80" Margin="0,0,10,0">
+                                            <Image Aspect="AspectFit"
+                                               HeightRequest="80"
+                                               WidthRequest="80"
+                                               Source="{Binding ImageFile}"/>
+                                        </Frame>
+                                        <VerticalStackLayout>
+                                            <Label>
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <Span Text="Name: "/>
+                                                        <Span Text="{Binding Name}"/>
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
+                                            <Label>
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <Span Text="Inspection date: "/>
+                                                        <Span Text="{Binding InspectionDate, Converter={StaticResource InspectionDateFormat}}"/>
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
+                                            <Label>
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <Span Text="Max weight: "/>
+                                                        <Span Text="{Binding MaxWeight}"/>
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
+                                            <Label>
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <Span Text="Seats number: "/>
+                                                        <Span Text="{Binding SeatsNumber}"/>
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
+                                        </VerticalStackLayout>
+                                    </HorizontalStackLayout>
+                                </Frame>
                             </StackLayout>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
             </ScrollView>
-
-            <HorizontalStackLayout>
-                <Button Text="Add Garage" Command="{Binding
-                                                        Source={RelativeSource
-                                                            AncestorType={x:Type models:GaragesViewModel} },
-                                                        Path=AddGarageCommand}"/>
-                <Button Text="Edit Garage" Command="{Binding 
-                                                        Source={RelativeSource
-                                                            AncestorType={x:Type models:GaragesViewModel} },
-                                                        Path=EditGarageCommand}"
-                                                        CommandParameter="{Binding SelectedGarage}"/>
-                <Button Text="Delete Garage" Command="{Binding 
-                                                        Source={RelativeSource
-                                                            AncestorType={x:Type models:GaragesViewModel} },
-                                                        Path=DeleteGarageCommand}"
-                                                        CommandParameter="{Binding SelectedGarage}"/>
-                <Button Text="Add Vehicle" Command="{Binding 
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button BackgroundColor="LightSeaGreen" Margin="10,0,5,5" Grid.Column="0" Text="Add Garage" Command="{Binding
+                                        Source={RelativeSource
+                                            AncestorType={x:Type models:GaragesViewModel} },
+                                        Path=AddGarageCommand}"/>
+                <Button BackgroundColor="Orange" Margin="5,0,5,5" Grid.Column="1" Text="Edit Garage" Command="{Binding 
+                                        Source={RelativeSource
+                                            AncestorType={x:Type models:GaragesViewModel} },
+                                        Path=EditGarageCommand}"
+                                        CommandParameter="{Binding SelectedGarage}"/>
+                <Button BackgroundColor="PaleVioletRed" Margin="5,0,10,5" Grid.Column="2" Text="Delete Garage" Command="{Binding 
+                                        Source={RelativeSource
+                                            AncestorType={x:Type models:GaragesViewModel} },
+                                        Path=DeleteGarageCommand}"
+                                        CommandParameter="{Binding SelectedGarage}"/>
+            </Grid>
+            <Button Margin="10,5,10,0" Text="Add Vehicle" Command="{Binding 
                                                         Source={RelativeSource
                                                             AncestorType={x:Type models:GaragesViewModel} },
                                                         Path=AddVehicleCommand}"
                                                         CommandParameter="{Binding SelectedGarage}"/>
-            </HorizontalStackLayout>
         </VerticalStackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -25,6 +25,14 @@ namespace _253504Novikov.UI.ViewModels
         [ObservableProperty]
         Garage selectedGarage;
 
+        [ObservableProperty]
+        double area;
+
+        partial void OnSelectedGarageChanged(Garage value)
+        {
+            Area = SelectedGarage?.Area ?? 0;
+        }
+
         [RelayCommand]
         async Task UpdateGaragesList() => await GetGarages();
         

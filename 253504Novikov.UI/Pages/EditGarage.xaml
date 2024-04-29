@@ -7,10 +7,10 @@
              x:DataType="models:EditGarageViewModel"
              x:Class="_253504Novikov.UI.Pages.EditGarage"
              Title="EditGarage">
-    <VerticalStackLayout>
+    <VerticalStackLayout Margin="10">
         <Label Text="Name"/>
         <Entry Placeholder="Name" Keyboard="Text" Text="{Binding Name}"/>
-        <Label Text="Area"/>
+        <Label Margin="0,10,0,0" Text="Area"/>
         <Entry Placeholder="Area" Keyboard="Numeric" Text="{Binding Area}"/>
         <Button Text="Save" Command="{Binding 
                                     Source={RelativeSource 

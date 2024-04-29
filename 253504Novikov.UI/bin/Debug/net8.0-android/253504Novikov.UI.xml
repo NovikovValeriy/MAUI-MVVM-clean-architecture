@@ -135,6 +135,14 @@
         <member name="P:_253504Novikov.UI.ViewModels.GaragesViewModel.SelectedGarage">
             <inheritdoc cref="F:_253504Novikov.UI.ViewModels.GaragesViewModel.selectedGarage"/>
         </member>
+        <member name="P:_253504Novikov.UI.ViewModels.GaragesViewModel.Area">
+            <inheritdoc cref="F:_253504Novikov.UI.ViewModels.GaragesViewModel.area"/>
+        </member>
+        <member name="M:_253504Novikov.UI.ViewModels.GaragesViewModel.OnSelectedGarageChanged(_253504Novikov.Domain.Entities.Garage)">
+            <summary>Executes the logic for when <see cref="P:_253504Novikov.UI.ViewModels.GaragesViewModel.SelectedGarage"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:_253504Novikov.UI.ViewModels.GaragesViewModel.SelectedGarage"/> is changed.</remarks>
+        </member>
         <member name="F:_253504Novikov.UI.ViewModels.GaragesViewModel.updateGaragesListCommand">
             <summary>The backing field for <see cref="P:_253504Novikov.UI.ViewModels.GaragesViewModel.UpdateGaragesListCommand"/>.</summary>
         </member>
